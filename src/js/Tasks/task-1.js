@@ -4,7 +4,7 @@ export class TaskOne {
     }
 
     taskSolution() {
-        let start = prompt('Введите 6 чисел через пробел');
+        let start = prompt('Введите 6 чисел');
         let max_length = 6;
         let sum = 0;
 
