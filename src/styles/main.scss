@@ -1,9 +1,14 @@
 @import "libs";
-@import "helpers/variables";
-@import "helpers/mixins";
-@import "general/fonts";
-@import "general/base";
-@import "animations/jump";
-@import "game-objects/background";
-@import "game-objects/game-level-objects";
-@import "game-objects/platform";
+
+@import "base/base";
+@import "base/typography";
+@import "base/container";
+@import "base/buttons";
+
+@import "layout/header";
+@import "layout/footer";
+
+@import "components/row";
+@import "components/section";
+@import "components/task-description";
+@import "components/task-output";

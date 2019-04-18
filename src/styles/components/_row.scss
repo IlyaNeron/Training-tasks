@@ -1,0 +1,13 @@
+.row {
+  width: 100%;
+  display: flex;
+
+  &:not(:last-child) {
+    margin: 0 0 50px;
+  }
+
+  .col {
+    width: 50%;
+    border: 4px solid #333;
+  }
+}

@@ -1,0 +1,12 @@
+.task-output {
+  padding: 20px;
+
+  span {
+    display: block;
+
+    &:not(:last-child) {
+      margin: 0 0 10px;
+    }
+
+  }
+}
